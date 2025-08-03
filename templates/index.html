@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PCA Digits Visualization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>PCA 2D Visualization of Digits Dataset</h1>
+    <div class="plot-container">
+        {{ plot_html | safe }}
+    </div>
+</body>
+</html>
